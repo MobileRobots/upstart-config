@@ -10,4 +10,6 @@ TODO
 ----
 * Read some parameters from some central location:
   * ROS distribution name
-  * ethernet interface to use as roscore/ROS_MASTER IP address
+  * ethernet interface whose address to use as roscore ROS_IP and for roscore to wait to start on
+  * ethernet interface to wait to start ros nodes on, and what ROS_MASTER URI to use (or ip address)
+  * serial port for rosaria to wait on. or parse /etc/Aria.args?
