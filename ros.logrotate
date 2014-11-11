@@ -1,0 +1,7 @@
+
+/var/log/ros/hydro/*/*.log {
+  daily
+  missingok
+  create 644 ros ros
+}
+
